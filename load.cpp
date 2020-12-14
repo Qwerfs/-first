@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <windows.h>
 void LoadRun(const char * const s, int i) {
+printf("HELLO\n");
 void * lib;
 void (*fun1)(void);
 void (*fun2)(void);
